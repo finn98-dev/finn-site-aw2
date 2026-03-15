@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finn Schneider - KI & Automatisierung für den Mittelstand</title>
+    <meta name="description" content="Konkrete KI-Automatisierungslösungen für deutsche Mittelständler. ROI-optimierte Strategien, Praxis-Tests und echte Ergebnisse.">
+    <meta name="keywords" content="KI Automatisierung, Mittelstand, Digitalisierung, Workflow Automatisierung, ROI">
+    <link rel="canonical" href="https://finn-site-aw2.pages.dev/">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: #f7fafc;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .stats-section {
+            background: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .stat-card {
+            padding: 30px;
+            border-radius: 12px;
+            background: #f8f9fa;
+            border: 2px solid #e2e8f0;
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #007bff;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #4a5568;
+            margin-top: 10px;
+        }
+
+        .articles-section {
+            padding: 60px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #1a202c;
+            margin-bottom: 50px;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .article-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .article-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .article-card.featured {
+            border: 3px solid #28a745;
+            background: linear-gradient(145deg, #f0fff4 0%, #ffffff 100%);
+        }
+
+        .article-card h3 {
+            font-size: 1.4rem;
+            color: #1a202c;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .article-card p {
+            color: #4a5568;
+            margin-bottom: 20px;
+        }
+
+        .article-meta {
+            font-size: 0.9rem;
+            color: #718096;
+            margin-bottom: 15px;
+        }
+
+        .article-link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .article-link:hover {
+            text-decoration: underline;
+        }
+
+        .value-props {
+            background: #1a202c;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .props-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .prop-card {
+            padding: 30px;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .prop-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #63b3ed;
+        }
+
+        footer {
+            background: #2d3748;
+            color: #a0aec0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .articles-grid,
+            .stats-grid,
+            .props-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>KI-Automatisierung für den deutschen Mittelstand</h1>
+            <p>Konkrete Lösungen, echte ROI-Zahlen, bewährte Strategien</p>
+            <a href="#articles" class="cta-button">Jetzt implementieren →</a>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">Warum KI-Automatisierung 2026 überlebenswichtig ist</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">73%</span>
+                    <div class="stat-label">der Mittelständler verlieren täglich 2-4h durch manuelle Prozesse</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">340%</span>
+                    <div class="stat-label">ROI durch KI-Automatisierung im ersten Jahr</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">€127k</span>
+                    <div class="stat-label">jährliche Mehrkosten ohne Automatisierung</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">23h</span>
+                    <div class="stat-label">wöchentliche Zeitersparnis pro Mitarbeiter</div>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <strong>🚨 Realität Check:</strong> Während Sie noch überlegen, automatisiert Ihre Konkurrenz bereits. 
+                Unternehmen ohne KI-Strategie werden 2027 nicht mehr wettbewerbsfähig sein.
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="articles-section" id="articles">
+        <div class="container">
+            <h2 class="section-title">Praxis-Guides & Strategien</h2>
+            
+            <div class="articles-grid">
+                <article class="article-card featured">
+                    <h3>🚨 Warum KI-Automatisierung für den deutschen Mittelstand 2026 überlebenswichtig ist</h3>
+                    <div class="article-meta">⏱️ 8 Min Lesezeit • 🎯 Business Strategy • 📈 ROI-Zahlen</div>
+                    <p>
+                        73% der deutschen Mittelständler verschwenden täglich Stunden mit manuellen Prozessen. 
+                        Konkrete KI-Lösungen, ROI-Berechnungen und eine 90-Tage-Roadmap zur Automatisierung.
+                    </p>
+                    <a href="/mittelstand-ki-automatisierung-2026.html" class="article-link">Strategie lesen →</a>
+                </article>
+
+                <article class="article-card">
+                    <h3>DigitalOcean vs AWS für kleine Projekte</h3>
+                    <div class="article-meta">⏱️ 8 Min Lesezeit • 💰 Hosting • 🔧 Praxis-Test</div>
+                    <p>
+                        Ehrlicher Vergleich nach 2 Jahren Production-Erfahrung. Wann sich was lohnt, 
+                        echte Kosten und Setup-Aufwand im Detail.
+                    </p>
+                    <a href="/digitalocean-vs-aws-article.html" class="article-link">Vergleich lesen →</a>
+                </article>
+
+                <article class="article-card">
+                    <h3>Synology vs QNAP NAS-Vergleich</h3>
+                    <div class="article-meta">⏱️ 12 Min Lesezeit • 🏠 Homelab • 📊 Hardware-Test</div>
+                    <p>
+                        Detaillierter Vergleich der beiden NAS-Systeme. Performance, Software, 
+                        Preis-Leistung und Empfehlungen für verschiedene Use Cases.
+                    </p>
+                    <a href="/synology-ds224-vs-qnap-ts264-vergleich.html" class="article-link">Test lesen →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Props -->
+    <section class="value-props">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Warum diese Guides anders sind</h2>
+            
+            <div class="props-grid">
+                <div class="prop-card">
+                    <h4>🎯 Praxis-orientiert</h4>
+                    <p>Keine Theorie, sondern echte Implementierungserfahrung aus produktiven Umgebungen.</p>
+                </div>
+                <div class="prop-card">
+                    <h4>💰 ROI-fokussiert</h4>
+                    <p>Jede Empfehlung mit konkreten Zahlen: Kosten, Zeitersparnis und Return on Investment.</p>
+                </div>
+                <div class="prop-card">
+                    <h4>🔧 Sofort umsetzbar</h4>
+                    <p>Step-by-Step Anleitungen, die Sie heute starten und morgen Ergebnisse sehen können.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Finn Schneider | KI-Automatisierung & Tech-Vergleiche</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+                Praktische Lösungen für echte Probleme. Kein Marketing-Blabla.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

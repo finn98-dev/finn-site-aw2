@@ -1,1 +1,0 @@
-<h1>Cloudflare Pages Public Dir</h1>

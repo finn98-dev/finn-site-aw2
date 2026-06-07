@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurse — finndigital</title>
+  <meta name="description" content="KI-Kurse in zwei Tracks: Anwenden (ohne Code) und Bauen (Agenten entwickeln, Self-Hosting).">
+  <!-- TODO vor Go-Live: Google Fonts durch selbst gehostete Fonts ersetzen (DSGVO) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-logo">finn<span class="dot">digital</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="/kurse.html" class="active">Kurse</a>
+        <a href="/ueber-mich.html">Über mich</a>
+        <a href="mailto:finnschneider.de@gmail.com" class="nav-cta">Kontakt</a>
+      </div>
+      <button class="nav-burger" id="burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+
+        <div class="section-header reveal">
+          <h1>Kurse</h1>
+          <p>Zwei Tracks, eine Plattform. Such dir den Einstieg, der zu dir passt.</p>
+        </div>
+
+        <!-- ── Track: Anwenden ── -->
+        <div class="track-section" id="anwenden">
+          <div class="track-header reveal">
+            <span class="track-badge amber">Track 1 — Anwenden</span>
+            <h2>KI nutzen ohne technischen Background</h2>
+          </div>
+
+          <div class="courses-grid">
+
+            <div class="course-card amber reveal">
+              <span class="course-status">In Entwicklung</span>
+              <h3>Claude im Arbeitsalltag</h3>
+              <p>
+                KI als täglichen Assistenten verstehen und produktiv einsetzen —
+                für Schreiben, Recherche, Planung und Entscheidungen. Alles ohne Code.
+              </p>
+              <div class="course-topics">
+                <span class="topic-tag">Prompting</span>
+                <span class="topic-tag">Claude</span>
+                <span class="topic-tag">Produktivität</span>
+                <span class="topic-tag">Alltag</span>
+              </div>
+            </div>
+
+            <div class="course-card amber reveal">
+              <span class="course-status">In Entwicklung</span>
+              <h3>Automatisierung ohne Code mit n8n</h3>
+              <p>
+                Workflows bauen, Prozesse automatisieren, Systeme verknüpfen —
+                ohne eine Zeile zu programmieren. Aus echten Projekten (PREISWAT).
+              </p>
+              <div class="course-topics">
+                <span class="topic-tag">n8n</span>
+                <span class="topic-tag">Workflows</span>
+                <span class="topic-tag">Automatisierung</span>
+                <span class="topic-tag">No-Code</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ── Track: Bauen ── -->
+        <div class="track-section" id="bauen">
+          <div class="track-header reveal">
+            <span class="track-badge teal">Track 2 — Bauen</span>
+            <h2>Eigene KI-Systeme entwickeln</h2>
+          </div>
+
+          <div class="courses-grid">
+
+            <div class="course-card teal reveal">
+              <span class="course-status">In Entwicklung</span>
+              <h3>Dein erster KI-Agent</h3>
+              <p>
+                Wie ich meinen persönlichen Agenten Jarvis gebaut habe —
+                von der Idee bis zum laufenden Telegram-Bot mit Claude API.
+                Echte Architektur, echte Probleme.
+              </p>
+              <div class="course-topics">
+                <span class="topic-tag">Claude API</span>
+                <span class="topic-tag">Agenten</span>
+                <span class="topic-tag">Telegram</span>
+                <span class="topic-tag">Python</span>
+              </div>
+            </div>
+
+            <div class="course-card teal reveal">
+              <span class="course-status">In Entwicklung</span>
+              <h3>Eigene Bots auf dem eigenen Server</h3>
+              <p>
+                Meine PREISWAT &amp; OpenClaw-Reise: n8n, Hetzner VPS, Self-Hosting.
+                Du lernst, wie ich echte Bots auf eigenem Server deployed und betreibe —
+                günstig, sicher, unter voller Kontrolle.
+              </p>
+              <div class="course-topics">
+                <span class="topic-tag">Hetzner</span>
+                <span class="topic-tag">Self-Hosting</span>
+                <span class="topic-tag">Docker</span>
+                <span class="topic-tag">n8n</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ── CTA ── -->
+        <div style="text-align: center; margin-top: 48px;" class="reveal">
+          <p style="color: var(--muted); margin-bottom: 16px;">
+            Alle Kurse sind in Entwicklung. Früh dabei sein?
+          </p>
+          <a
+            href="mailto:finnschneider.de@gmail.com?subject=finndigital%20%E2%80%94%20Kurs-Interesse"
+            class="btn btn-amber"
+          >
+            Interesse melden →
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-logo">finn<span style="color:var(--amber)">digital</span></span>
+      <div class="footer-links">
+        <a href="/kurse.html">Kurse</a>
+        <a href="/ueber-mich.html">Über mich</a>
+        <a href="/impressum.html">Impressum</a>
+        <a href="/datenschutz.html">Datenschutz</a>
+      </div>
+      <span>&copy; 2026 Finn Schneider</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

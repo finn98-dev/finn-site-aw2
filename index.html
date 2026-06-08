@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>finndigital — KI verstehen & anwenden</title>
-  <meta name="description" content="Videokurse zu KI und Automatisierung. Zwei Tracks: KI im Alltag anwenden — oder KI selbst als Entwickler bauen.">
-  <!-- TODO vor Go-Live: Google Fonts durch selbst gehostete Fonts ersetzen (DSGVO §13 DSGVO / EuGH C-311/18) -->
+  <meta name="description" content="Videokurse zu KI und Automatisierung. Zwei Tracks: KI im Alltag anwenden — oder eigene KI-Agenten bauen.">
+  <!-- TODO vor Go-Live: Google Fonts selbst hosten (DSGVO) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -13,9 +13,11 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <nav class="nav" id="mainNav">
     <div class="container nav-inner">
-      <a href="/" class="nav-logo">finn<span class="dot">digital</span></a>
+      <a href="/" class="nav-logo">
+        <span class="word-finn">finn</span><span class="word-digital">digital</span>
+      </a>
       <div class="nav-links" id="navLinks">
         <a href="/kurse.html">Kurse</a>
         <a href="/ueber-mich.html">Über mich</a>
@@ -33,9 +35,11 @@
     <section class="hero">
       <div class="container">
         <span class="overline">finndigital · KI-Kurse</span>
-        <h1>Was willst du mit&nbsp;KI<br>erreichen?</h1>
+        <h1 class="display">
+          Was willst du mit&nbsp;KI<br><em>erreichen?</em>
+        </h1>
         <p class="subtitle">
-          Praxiswissen aus echten Projekten — keine Theorie, keine aufgewärmten Tutorials.
+          Praxiswissen aus echten Projekten —<br>keine Theorie, keine aufgewärmten Tutorials.
         </p>
 
         <div class="doors">
@@ -44,14 +48,12 @@
             <span class="door-tag">Track 1</span>
             <h2>KI anwenden</h2>
             <p class="door-desc">
-              Du willst KI sinnvoll in deinen Alltag integrieren — ohne Programmierung,
-              ohne technischen Hintergrund.
+              Du willst KI sinnvoll in deinen Alltag integrieren —
+              ohne Programmierung, ohne technischen Hintergrund.
             </p>
-            <span class="btn btn-amber">
-              Kurse ansehen <span class="door-arrow">→</span>
-            </span>
+            <span class="door-link">Kurse ansehen →</span>
             <div class="door-list">
-              <p>Für wen?</p>
+              <p class="door-list-label">Für wen?</p>
               <ul>
                 <li>Selbstständige &amp; Freelancer</li>
                 <li>Teams &amp; Berufstätige</li>
@@ -64,14 +66,12 @@
             <span class="door-tag">Track 2</span>
             <h2>KI selbst bauen</h2>
             <p class="door-desc">
-              Du willst eigene Agenten entwickeln, Bots selbst hosten und verstehen,
-              was unter der Haube passiert.
+              Du willst eigene Agenten entwickeln, Bots selbst hosten und
+              verstehen, was unter der Haube passiert.
             </p>
-            <span class="btn btn-teal">
-              Kurse ansehen <span class="door-arrow">→</span>
-            </span>
+            <span class="door-link">Kurse ansehen →</span>
             <div class="door-list">
-              <p>Für wen?</p>
+              <p class="door-list-label">Für wen?</p>
               <ul>
                 <li>Entwickler &amp; Technik-Begeisterte</li>
                 <li>Homelabber &amp; Tinkerer</li>
@@ -87,52 +87,56 @@
     <!-- ── Warum finndigital ── -->
     <section class="section" style="background: var(--white);">
       <div class="container">
-        <div class="section-header reveal">
-          <h2>Warum ausgerechnet hier lernen?</h2>
-          <p>Alles, was du hier lernst, kommt aus echten, laufenden Projekten — nicht aus YouTube-Tutorials.</p>
+        <div class="section-header">
+          <span class="overline reveal">Warum finndigital</span>
+          <h2 class="reveal">Lern von jemandem, der es selbst baut</h2>
+          <p class="reveal">Alles, was du hier lernst, kommt aus echten, laufenden Projekten.</p>
         </div>
+
         <div class="projects-grid">
           <div class="project-card reveal">
-            <span class="project-tag">→ Bauen-Track</span>
+            <span class="project-num">01</span>
+            <span class="project-tag">Bauen-Track</span>
             <h4>Jarvis</h4>
             <p>Mein persönlicher KI-Agent über Telegram. Zeigt, wie echte Agenten im Alltag funktionieren — und wo sie scheitern.</p>
           </div>
           <div class="project-card reveal">
-            <span class="project-tag">→ Bauen-Track</span>
+            <span class="project-num">02</span>
+            <span class="project-tag">Bauen-Track</span>
             <h4>PREISWAT</h4>
-            <p>Preisfehler-Bot mit n8n und eigenen APIs. Aus diesem realen Projekt entstand der n8n-Kurs.</p>
+            <p>Preisfehler-Bot mit n8n und eigenen APIs. Aus diesem realen Projekt kommt der n8n-Kurs.</p>
           </div>
           <div class="project-card reveal">
-            <span class="project-tag">→ Bauen-Track</span>
+            <span class="project-num">03</span>
+            <span class="project-tag">Bauen-Track</span>
             <h4>OpenClaw / Hetzner</h4>
             <p>Self-Hosting auf eigenem VPS. Der praktische Beweis, dass es günstiger und kontrollierbarer geht.</p>
           </div>
           <div class="project-card reveal">
-            <span class="project-tag">→ Anwenden-Track</span>
+            <span class="project-num">04</span>
+            <span class="project-tag amber-tag">Anwenden-Track</span>
             <h4>KI im Alltag</h4>
-            <p>Wie ich KI täglich nutze — für Planung, Schreiben, Recherche und Entscheidungen. Kein aufgesetztes Use-Case-Theater.</p>
+            <p>Wie ich KI täglich nutze — für Planung, Schreiben, Recherche und Entscheidungen. Kein aufgesetztes Theater.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ── Interesse melden ── -->
-    <section class="section">
-      <div class="container" style="text-align: center; max-width: 580px; margin: 0 auto;">
-        <div class="reveal">
-          <span class="overline">In Entwicklung</span>
-          <h2 style="margin: 14px 0 18px;">Die ersten Kurse kommen bald</h2>
-          <p style="color: var(--muted); margin-bottom: 32px;">
-            Schreib mir kurz, welchen Track du interessanter findest —
-            dann bist du bei Verfügbarkeit der Erste, der es erfährt.
-          </p>
-          <a
-            href="mailto:finnschneider.de@gmail.com?subject=finndigital%20%E2%80%94%20Kurs-Interesse"
-            class="btn btn-amber"
-          >
-            Interesse melden →
-          </a>
-        </div>
+    <!-- ── CTA (dark) ── -->
+    <section class="section-dark">
+      <div class="container">
+        <span class="overline reveal">In Entwicklung</span>
+        <h2 class="reveal">Die ersten Kurse kommen bald</h2>
+        <p class="reveal">
+          Schreib mir kurz, welchen Track du interessanter findest —
+          dann bist du bei Verfügbarkeit der Erste, der es erfährt.
+        </p>
+        <a
+          href="mailto:finnschneider.de@gmail.com?subject=finndigital%20%E2%80%94%20Kurs-Interesse"
+          class="btn btn-amber btn-lg reveal"
+        >
+          Interesse melden →
+        </a>
       </div>
     </section>
 
@@ -140,14 +144,16 @@
 
   <footer>
     <div class="container footer-inner">
-      <span class="footer-logo">finn<span style="color:var(--amber)">digital</span></span>
+      <span class="footer-logo">
+        <span class="word-finn">finn</span><span class="word-digital">digital</span>
+      </span>
       <div class="footer-links">
         <a href="/kurse.html">Kurse</a>
         <a href="/ueber-mich.html">Über mich</a>
         <a href="/impressum.html">Impressum</a>
         <a href="/datenschutz.html">Datenschutz</a>
       </div>
-      <span>&copy; 2026 Finn Schneider</span>
+      <span class="footer-copy">&copy; 2026 Finn Schneider</span>
     </div>
   </footer>
 

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kurse — finndigital</title>
   <meta name="description" content="KI-Kurse in zwei Tracks: Anwenden (ohne Code) und Bauen (Agenten entwickeln, Self-Hosting).">
-  <!-- TODO vor Go-Live: Google Fonts durch selbst gehostete Fonts ersetzen (DSGVO) -->
+  <!-- TODO vor Go-Live: Google Fonts selbst hosten (DSGVO) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -13,9 +13,11 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <nav class="nav" id="mainNav">
     <div class="container nav-inner">
-      <a href="/" class="nav-logo">finn<span class="dot">digital</span></a>
+      <a href="/" class="nav-logo">
+        <span class="word-finn">finn</span><span class="word-digital">digital</span>
+      </a>
       <div class="nav-links" id="navLinks">
         <a href="/kurse.html" class="active">Kurse</a>
         <a href="/ueber-mich.html">Über mich</a>
@@ -31,9 +33,10 @@
     <section class="section">
       <div class="container">
 
-        <div class="section-header reveal">
-          <h1>Kurse</h1>
-          <p>Zwei Tracks, eine Plattform. Such dir den Einstieg, der zu dir passt.</p>
+        <div class="section-header">
+          <span class="overline reveal">Kursangebot</span>
+          <h1 class="reveal">Kurse</h1>
+          <p class="reveal">Zwei Tracks, eine Plattform. Such dir den Einstieg, der zu dir passt.</p>
         </div>
 
         <!-- ── Track: Anwenden ── -->
@@ -44,7 +47,6 @@
           </div>
 
           <div class="courses-grid">
-
             <div class="course-card amber reveal">
               <span class="course-status">In Entwicklung</span>
               <h3>Claude im Arbeitsalltag</h3>
@@ -74,7 +76,6 @@
                 <span class="topic-tag">No-Code</span>
               </div>
             </div>
-
           </div>
         </div>
 
@@ -86,7 +87,6 @@
           </div>
 
           <div class="courses-grid">
-
             <div class="course-card teal reveal">
               <span class="course-status">In Entwicklung</span>
               <h3>Dein erster KI-Agent</h3>
@@ -108,8 +108,8 @@
               <h3>Eigene Bots auf dem eigenen Server</h3>
               <p>
                 Meine PREISWAT &amp; OpenClaw-Reise: n8n, Hetzner VPS, Self-Hosting.
-                Du lernst, wie ich echte Bots auf eigenem Server deployed und betreibe —
-                günstig, sicher, unter voller Kontrolle.
+                Du lernst, wie ich echte Bots auf eigenem Server deployed und
+                betreibe — günstig, sicher, unter voller Kontrolle.
               </p>
               <div class="course-topics">
                 <span class="topic-tag">Hetzner</span>
@@ -118,37 +118,44 @@
                 <span class="topic-tag">n8n</span>
               </div>
             </div>
-
           </div>
-        </div>
-
-        <!-- ── CTA ── -->
-        <div style="text-align: center; margin-top: 48px;" class="reveal">
-          <p style="color: var(--muted); margin-bottom: 16px;">
-            Alle Kurse sind in Entwicklung. Früh dabei sein?
-          </p>
-          <a
-            href="mailto:finnschneider.de@gmail.com?subject=finndigital%20%E2%80%94%20Kurs-Interesse"
-            class="btn btn-amber"
-          >
-            Interesse melden →
-          </a>
         </div>
 
       </div>
     </section>
+
+    <!-- ── CTA ── -->
+    <section class="section-dark">
+      <div class="container">
+        <span class="overline reveal">Früher Zugang</span>
+        <h2 class="reveal">Interesse an einem Kurs?</h2>
+        <p class="reveal">
+          Alle Kurse sind in Entwicklung. Schreib mir — ich melde mich,
+          sobald dein Track verfügbar ist.
+        </p>
+        <a
+          href="mailto:finnschneider.de@gmail.com?subject=finndigital%20%E2%80%94%20Kurs-Interesse"
+          class="btn btn-amber btn-lg reveal"
+        >
+          Interesse melden →
+        </a>
+      </div>
+    </section>
+
   </main>
 
   <footer>
     <div class="container footer-inner">
-      <span class="footer-logo">finn<span style="color:var(--amber)">digital</span></span>
+      <span class="footer-logo">
+        <span class="word-finn">finn</span><span class="word-digital">digital</span>
+      </span>
       <div class="footer-links">
         <a href="/kurse.html">Kurse</a>
         <a href="/ueber-mich.html">Über mich</a>
         <a href="/impressum.html">Impressum</a>
         <a href="/datenschutz.html">Datenschutz</a>
       </div>
-      <span>&copy; 2026 Finn Schneider</span>
+      <span class="footer-copy">&copy; 2026 Finn Schneider</span>
     </div>
   </footer>
 

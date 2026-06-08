@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Über mich — finndigital</title>
-  <meta name="description" content="Wer steckt hinter finndigital? Finn Schneider — Builder, Tinkerer, KI-Praktiker aus echten Projekten.">
-  <!-- TODO vor Go-Live: Google Fonts durch selbst gehostete Fonts ersetzen (DSGVO) -->
+  <meta name="description" content="Finn Schneider — Builder, Tinkerer, KI-Praktiker. Wer hinter finndigital steckt.">
+  <!-- TODO vor Go-Live: Google Fonts selbst hosten (DSGVO) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -13,9 +13,11 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <nav class="nav" id="mainNav">
     <div class="container nav-inner">
-      <a href="/" class="nav-logo">finn<span class="dot">digital</span></a>
+      <a href="/" class="nav-logo">
+        <span class="word-finn">finn</span><span class="word-digital">digital</span>
+      </a>
       <div class="nav-links" id="navLinks">
         <a href="/kurse.html">Kurse</a>
         <a href="/ueber-mich.html" class="active">Über mich</a>
@@ -28,10 +30,10 @@
   </nav>
 
   <main>
+
+    <!-- ── Intro ── -->
     <section class="section">
       <div class="container">
-
-        <!-- ── Intro ── -->
         <div class="about-grid">
 
           <div class="about-photo reveal">
@@ -40,95 +42,90 @@
           </div>
 
           <div>
-            <span class="overline">Über mich</span>
-            <h1 style="margin: 14px 0 24px;">
-              Ich baue Dinge mit&nbsp;KI.<br>Dann lehre ich, wie.
+            <span class="overline reveal">Über mich</span>
+            <h1 class="reveal" style="margin: 14px 0 28px;">
+              Ich baue Dinge mit KI.<br>Dann lehre ich, wie.
             </h1>
-
             <p class="about-lead reveal">
-              Ich bin Finn — Builder, Tinkerer, und jemand, der zu viele Ideen hat
-              und sie am liebsten alle gleichzeitig umsetzt.
+              Ich bin Finn — Builder, Tinkerer, und jemand, der zu viele
+              Ideen hat und sie am liebsten alle gleichzeitig umsetzt.
             </p>
-
-            <p style="color:var(--muted); line-height:1.8; margin-bottom:18px;" class="reveal">
+            <p class="about-body reveal">
               Was hier entsteht, kommt nicht aus der Theorie.
-              <strong>Jarvis</strong> ist mein persönlicher KI-Agent, den ich über Telegram bediene.
-              <strong>PREISWAT</strong> ist ein Preisfehler-Bot, den ich selbst gebaut und auf einem
-              Hetzner-Server deployed habe. <strong>OpenClaw</strong> ist meine Self-Hosting-Infrastruktur —
-              auf meinem eigenen VPS.
+              <strong style="color:var(--text);">Jarvis</strong> ist mein persönlicher KI-Agent,
+              den ich über Telegram bediene.
+              <strong style="color:var(--text);">PREISWAT</strong> ist ein Preisfehler-Bot,
+              den ich selbst gebaut und auf einem Hetzner-Server deployed habe.
+              <strong style="color:var(--text);">OpenClaw</strong> ist meine Self-Hosting-Infrastruktur —
+              auf meinem eigenen VPS, 24/7 am Laufen.
             </p>
-
-            <p style="color:var(--muted); line-height:1.8; margin-bottom:32px;" class="reveal">
+            <p class="about-body reveal">
               Aus diesen Projekten entstehen die Kurse. Kein erfundenes Wissen,
-              keine aufgewärmten YouTube-Tutorials — sondern das, was ich selbst
-              gebaut habe, erklärt für alle, die es selbst machen wollen.
+              keine aufgewärmten Tutorials — sondern das, was ich selbst gebaut habe,
+              erklärt für alle, die es selbst machen wollen.
             </p>
-
             <!-- LinkedIn-Link: vor Go-Live einsetzen -->
-            <!-- <a href="https://linkedin.com/in/..." class="btn btn-ghost reveal" target="_blank" rel="noopener">LinkedIn →</a> -->
+            <!-- <a href="https://linkedin.com/in/..." class="btn btn-ghost reveal" target="_blank" rel="noopener" style="margin-top:8px;">LinkedIn →</a> -->
           </div>
 
         </div>
-
-        <!-- ── Projekte ── -->
-        <div style="margin-top: 80px;">
-          <div class="section-header reveal">
-            <h2>Die Projekte hinter den Kursen</h2>
-            <p>
-              Das ist der unfaire Vorteil: meine realen Projekte <em>sind</em> das Kursmaterial.
-            </p>
-          </div>
-
-          <div class="projects-grid">
-            <div class="project-card reveal">
-              <span class="project-tag mono">Jarvis</span>
-              <h4>Persönlicher KI-Agent</h4>
-              <p>
-                Telegram-Bot mit Claude als Gehirn. Reminders, Recherche, Planung —
-                läuft auf eigenem Server, 24/7. Aus diesem Projekt kommt der Agent-Kurs.
-              </p>
-            </div>
-            <div class="project-card reveal">
-              <span class="project-tag mono">PREISWAT</span>
-              <h4>Preisfehler-Bot</h4>
-              <p>
-                n8n-Workflow, der automatisch Preisfehler erkennt und meldet.
-                Aus diesem Projekt kommt der n8n-Kurs.
-              </p>
-            </div>
-            <div class="project-card reveal">
-              <span class="project-tag mono">OpenClaw / Hetzner</span>
-              <h4>Self-Hosting auf eigenem Server</h4>
-              <p>
-                Meine Infrastruktur auf Hetzner VPS: Docker, Deployment, eigene Domains.
-                Alles läuft — dokumentiert im Self-Hosting-Kurs.
-              </p>
-            </div>
-            <div class="project-card reveal">
-              <span class="project-tag mono">finndigital</span>
-              <h4>Diese Website</h4>
-              <p>
-                Statisch, auf Cloudflare Pages — selbst gebaut, Schritt für Schritt.
-                Dogfooding: ich lerne, was ich lehre.
-              </p>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
+
+    <!-- ── Projekte ── -->
+    <section class="section" style="background: var(--white);">
+      <div class="container">
+        <div class="section-header">
+          <span class="overline reveal">Echte Projekte</span>
+          <h2 class="reveal">Die Projekte hinter den Kursen</h2>
+          <p class="reveal">
+            Das ist der unfaire Vorteil: meine realen Projekte <em>sind</em> das Kursmaterial.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <span class="project-num">01</span>
+            <span class="project-tag mono">Jarvis</span>
+            <h4>Persönlicher KI-Agent</h4>
+            <p>Telegram-Bot mit Claude als Gehirn. Reminders, Recherche, Planung — läuft auf eigenem Server, rund um die Uhr.</p>
+          </div>
+          <div class="project-card reveal">
+            <span class="project-num">02</span>
+            <span class="project-tag mono">PREISWAT</span>
+            <h4>Preisfehler-Bot</h4>
+            <p>n8n-Workflow, der automatisch Preisfehler erkennt und meldet. Aus diesem Projekt kommt der n8n-Kurs.</p>
+          </div>
+          <div class="project-card reveal">
+            <span class="project-num">03</span>
+            <span class="project-tag mono">OpenClaw / Hetzner</span>
+            <h4>Self-Hosting auf eigenem Server</h4>
+            <p>Infrastruktur auf Hetzner VPS: Docker, Deployment, eigene Domains. Alles läuft — dokumentiert im Self-Hosting-Kurs.</p>
+          </div>
+          <div class="project-card reveal">
+            <span class="project-num">04</span>
+            <span class="project-tag mono">finndigital</span>
+            <h4>Diese Website</h4>
+            <p>Statisch, Cloudflare Pages, selbst gebaut. Dogfooding: ich lerne genau das, was ich lehre.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer>
     <div class="container footer-inner">
-      <span class="footer-logo">finn<span style="color:var(--amber)">digital</span></span>
+      <span class="footer-logo">
+        <span class="word-finn">finn</span><span class="word-digital">digital</span>
+      </span>
       <div class="footer-links">
         <a href="/kurse.html">Kurse</a>
         <a href="/ueber-mich.html">Über mich</a>
         <a href="/impressum.html">Impressum</a>
         <a href="/datenschutz.html">Datenschutz</a>
       </div>
-      <span>&copy; 2026 Finn Schneider</span>
+      <span class="footer-copy">&copy; 2026 Finn Schneider</span>
     </div>
   </footer>
 

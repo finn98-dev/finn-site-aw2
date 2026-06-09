@@ -1,0 +1,12 @@
+# Video-Produktion — Rohdaten und Exports nicht ins Repo
+video-production/raw/
+video-production/exports/
+video-production/tmp/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp

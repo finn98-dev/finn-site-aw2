@@ -17,7 +17,7 @@ So kennst du Finn und den aktuellen Stand, ohne dass er etwas wiederholen muss.
 |---|---|
 | finndigital (Dach: Gewerbe, Recht, Portfolio) | `5523c8d5-f48b-4f26-a7e2-e173f713c2f2` |
 | ↳ Wealth Builder (Strategie, Experimente, KPIs) | `8720144d-3476-4a5a-bc2d-ac344cd90725` |
-| ↳ Jugendhilfe-KI (lokal) — Arbeits-Hypothese „Berichtsbox“ | `67b5329b-0cf7-465c-b788-f2999350067a` |
+| ↳ Jugendhilfe-KI (lokal) — „Berichtsbox“, angehalten | `67b5329b-0cf7-465c-b788-f2999350067a` |
 | ↳ KanzleiPilot / Mandantenfluss | `e9e4daca-d4e6-44c0-babd-1d0ef2bbfdf2` |
 | ↳ Udemy-Kurs | `162d6811-e018-4ffd-9520-0cc09832c37b` |
 | ↳ KI-Empfang (geparkt) | `c6621539-a327-4b57-9eb5-b85caa4a5bda` |
@@ -30,8 +30,8 @@ So kennst du Finn und den aktuellen Stand, ohne dass er etwas wiederholen muss.
 | Station „Finns Station“ | `e81c55ed-9b0d-4ba3-a9c2-625fde83bbb4` |
 
 ## Aktuelle Übereinkünfte (Stand 27.09.2026)
-- **Mandat „Autonomous Wealth Builder“** (27.09.2026): Claude handelt als Operator/CEO von finndigital, Finn ist Eigentümer und entscheidet nur, wo menschliche Autorisierung nötig ist (Geld, Verträge, Accounts, Rechtliches, Gespräche). Ziel: ≥ 20 Mio. € Nettovermögen in 3–8 Jahren. Analyse: WEALTH-1.
-- **Arbeits-Hypothese:** „Berichtsbox“ — KI-Dokumentation für freie Jugendhilfeträger, lokal/souverän betrieben. **Experiment E1** (JUGENDHI-3) läuft 28.09.–25.10.2026 mit Kill-Kriterien. Nicht bauen, bevor LOIs vorliegen.
+- **Mandat „Autonomous Wealth Builder“** (27.09.2026): Claude handelt als Operator/CEO von finndigital, Finn ist Eigentümer und entscheidet nur, wo menschliche Autorisierung nötig ist (Geld, Verträge, Accounts, Rechtliches, Gespräche). Ziel: ≥ 20 Mio. € Nettovermögen in 3–8 Jahren. Analysen: WEALTH-1, WEALTH-2.
+- **Stand der Strategie:** WEALTH-1 (erste Analyse) ist durch den Blind Reality Check **WEALTH-2** revidiert. Die Berichtsbox gilt dort als Compounder mit niedriger Decke; JUGENDHI-3 ist angehalten, bis Finn zwischen den Optionen A/B/C entscheidet. Nichts bauen, bevor zahlende Kunden oder LOIs vorliegen.
 - **Portfolio-Regel** (FINNDIGI2-55): höchstens zwei aktive Vorhaben. Neue Ideen während eines Experiments nur als Notiz im Wealth-Builder-Stream (Ideen-Quarantäne), keine Recherche-Runden.
 - **Agenten** (Jarvis, Dobby, Trend-Radar) → laufen auf **openclaw-1 (Hetzner)**.
 - **Websites** → Cloudflare Pages (statisch).

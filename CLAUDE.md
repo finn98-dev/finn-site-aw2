@@ -30,8 +30,8 @@ So kennst du Finn und den aktuellen Stand, ohne dass er etwas wiederholen muss.
 | Station „Finns Station“ | `e81c55ed-9b0d-4ba3-a9c2-625fde83bbb4` |
 
 ## Aktuelle Übereinkünfte (Stand 27.09.2026)
-- **Mandat „Autonomous Wealth Builder“** (27.09.2026): Claude handelt als Operator/CEO von finndigital, Finn ist Eigentümer und entscheidet nur, wo menschliche Autorisierung nötig ist (Geld, Verträge, Accounts, Rechtliches, Gespräche). Ziel: ≥ 20 Mio. € Nettovermögen in 3–8 Jahren. Analysen: WEALTH-1, WEALTH-2.
-- **Stand der Strategie:** WEALTH-1 (erste Analyse) ist durch den Blind Reality Check **WEALTH-2** revidiert. Die Berichtsbox gilt dort als Compounder mit niedriger Decke; JUGENDHI-3 ist angehalten, bis Finn zwischen den Optionen A/B/C entscheidet. Nichts bauen, bevor zahlende Kunden oder LOIs vorliegen.
+- **Mandat „Autonomous Wealth Builder“** (27.09.2026): Claude handelt als Operator/CEO von finndigital, Finn ist Eigentümer und entscheidet nur, wo menschliche Autorisierung nötig ist (Geld, Verträge, Accounts, Rechtliches, Gespräche). Ziel: ≥ 20 Mio. € Nettovermögen in 3–8 Jahren. Analysen: WEALTH-1, WEALTH-2, WEALTH-3.
+- **Stand der Strategie:** WEALTH-1 (erste Analyse) ist durch den Blind Reality Check **WEALTH-2** revidiert. Die Berichtsbox gilt dort als Compounder mit niedriger Decke; JUGENDHI-3 ist angehalten, bis Finn zwischen den Optionen A/B/C entscheidet. Aktuelle Phase: Customer Discovery im Maschinenbau (WEALTH-3, 15 Interviews, fünf Thesen). Nichts bauen, bevor zahlende Kunden oder LOIs vorliegen.
 - **Portfolio-Regel** (FINNDIGI2-55): höchstens zwei aktive Vorhaben. Neue Ideen während eines Experiments nur als Notiz im Wealth-Builder-Stream (Ideen-Quarantäne), keine Recherche-Runden.
 - **Agenten** (Jarvis, Dobby, Trend-Radar) → laufen auf **openclaw-1 (Hetzner)**.
 - **Websites** → Cloudflare Pages (statisch).

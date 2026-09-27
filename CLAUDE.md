@@ -31,7 +31,7 @@ So kennst du Finn und den aktuellen Stand, ohne dass er etwas wiederholen muss.
 
 ## Aktuelle Übereinkünfte (Stand 27.09.2026)
 - **Mandat „Autonomous Wealth Builder“** (27.09.2026): Claude handelt als Operator/CEO von finndigital, Finn ist Eigentümer und entscheidet nur, wo menschliche Autorisierung nötig ist (Geld, Verträge, Accounts, Rechtliches, Gespräche). Ziel: ≥ 20 Mio. € Nettovermögen in 3–8 Jahren. Analysen: WEALTH-1 bis WEALTH-5.
-- **Stand der Strategie (WEALTH-4/5):** Nur noch product-led, internetverteilte, KI-automatisierte Produkte; Validierung über echtes Nutzerverhalten statt Interviews. Maschinenbau (WEALTH-3) und Berichtsbox (JUGENDHI-3) geparkt. Aktuell: fünf Produktthesen mit Markttests je ≤ 100 €, ≤ 20 h, ≤ 14 Tage (WEALTH-5). Testseiten gehören in ein eigenes Repo, nicht in dieses Website-Repo.
+- **Stand der Strategie (WEALTH-4/5):** Nur noch product-led, internetverteilte, KI-automatisierte Produkte; Validierung über echtes Nutzerverhalten statt Interviews. Maschinenbau (WEALTH-3) und Berichtsbox (JUGENDHI-3) geparkt. Aktuell: fünf Produktthesen mit Markttests je ≤ 100 €, ≤ 20 h, ≤ 14 Tage (WEALTH-5). Testseiten liegen im Repo `desktop-tutorial` unter `lab/` (Tests A Lingoflat und B ShelfSignal), nicht in diesem Website-Repo.
 - **Portfolio-Regel** (FINNDIGI2-55): höchstens zwei aktive Vorhaben. Neue Ideen während eines Experiments nur als Notiz im Wealth-Builder-Stream (Ideen-Quarantäne), keine Recherche-Runden.
 - **Agenten** (Jarvis, Dobby, Trend-Radar) → laufen auf **openclaw-1 (Hetzner)**.
 - **Websites** → Cloudflare Pages (statisch).
